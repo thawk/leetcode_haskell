@@ -11,4 +11,4 @@ spec :: Spec
 spec = do
   describe "P1TwoSum" $ do
     it "works" $ do
-      twoSum [2, 7, 11, 15] 9 `shouldBe` Just (0, 1)
+      twoSum [2, 7, 11, 15] 9 `shouldBe` (0, 1)
