@@ -26,3 +26,8 @@ spec = do
 
     it "handle complicate" $ do
       longestSubstring "abcbcdec" `shouldBe` 4
+
+    it "handle leetcode" $ do
+      longestSubstring "abcabcbb" `shouldBe` 3
+      longestSubstring "bbbbb" `shouldBe` 1
+      longestSubstring "pwwkew" `shouldBe` 3
